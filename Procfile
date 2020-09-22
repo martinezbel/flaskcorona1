@@ -1,1 +1,1 @@
-web: gunicorn app:app
+web: gunicorn app:app && sh setup.sh && streamlit run operation.py
